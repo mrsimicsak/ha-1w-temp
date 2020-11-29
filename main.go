@@ -79,7 +79,7 @@ func main() {
 		for _, sensor := range sensors {
 			t, err := ds18b20.Temperature(sensor)
 			if err == nil {
-				fmt.Printf("sensor: %s temperature: %.2f°C\n", sensor, t)
+				fmt.Printf("sensor: %s temperature: %.2f°C, %.2f°F\n", sensor, t, CtoF(t))
 
 				topic := "home/sensor/ds18b20-gateway-01/" + sensor
 				c.Publish(topic, 0, false, fmt.Sprintf("%f", CtoF(t)))
