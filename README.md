@@ -1,6 +1,6 @@
 # Intro
 
-This utility reads <> temprature sensors connected to a RAsberry Pi and sends them to Home Assistant via MQTT. 
+This utility reads DS18B20 one wire temprature sensors connected to a Rasberry Pi and sends them to Home Assistant via MQTT. 
 
 Temprature sensors connected to the Raspberry Pi are automaticlly discoverred and added. The appropite MQTT messges are sent for each sensor so that Home Assistant MQTT discovery automaticlly adds each sensor.
 
@@ -15,10 +15,10 @@ Temprature sensors connected to the Raspberry Pi are automaticlly discoverred an
 
 
 # TODO: 
-    -[] Expand configuration options
-        -[] Gateway name
-        -[] additonal options for Home Assistant MQTT auto discovery
-        -[] MQTT topic prefix config
-    -[] implement running as a service
-    -[] improve documentation
-    -[] add sample .config file
+- [] Expand configuration options
+    - [] Gateway name
+    - [] additonal options for Home Assistant MQTT auto discovery
+    - [] MQTT topic prefix config
+- [] implement running as a service
+- [] improve documentation
+- [] add sample .config file
