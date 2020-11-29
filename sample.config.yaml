@@ -1,0 +1,5 @@
+MQTT:
+  broker: "ip address of broker"
+  username: "homeassistant"
+  password: "broker password"
+  clientid: "ds18b20-gateway-01"
