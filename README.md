@@ -15,10 +15,10 @@ Temprature sensors connected to the Raspberry Pi are automaticlly discoverred an
 
 
 # TODO: 
-- [] Expand configuration options
-    - [] Gateway name
-    - [] additonal options for Home Assistant MQTT auto discovery
-    - [] MQTT topic prefix config
-- [] implement running as a service
-- [] improve documentation
-- [] add sample .config file
+- [ ] Expand configuration options
+    - [ ] Gateway name
+    - [ ] additonal options for Home Assistant MQTT auto discovery
+    - [ ] MQTT topic prefix config
+- [ ] implement running as a service
+- [ ] improve documentation
+- [ ] add sample .config file
